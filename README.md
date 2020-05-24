@@ -7,3 +7,11 @@ var有变量提升，在全局定义下变量在window上，let、const在全局
 2.指向原型  
 3.绑定this  
 4.返回新对象
+
+## call apply bind区别  
+call、apply功能相同，都是改变this的指向，并立刻执行，区别在于传递参数不同。apply传的是数组对象，而call是一个个的值。bind返回一个函数。
+
+## 继承  
+原型继承  
+组合继承  
+寄生组合继承
