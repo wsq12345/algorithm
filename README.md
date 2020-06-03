@@ -22,4 +22,4 @@ call、apply功能相同，都是改变this的指向，并立刻执行，区别�
 回流一定会触发重绘，重绘不一定触发回流。  
 
 ## 如何获取一个页面所有dom
-利用document.getElementsByTagName("*")或者使用$$("*")获取到HTMLCollection（看起来像数组但是不能用数组的方法），再用es6的扩展运算符转换成数组
+利用document.getElementsByTagName("\*")或者使用$$("\*")获取到HTMLCollection（看起来像数组但是不能用数组的方法），再用es6的扩展运算符转换成数组
